@@ -7,55 +7,55 @@ const filmek = [
       cím: "Hereditary",
       ev: 2018,
       mufaj: "Horror",
-      kep: "/kepek/hereditary.jpg"
+      kep: "kepek/hereditary.jpg"
     },
     {
       cím: "Midsommar",
       ev: 2019,
       mufaj: "Horror",
-      kep: "/gallery/midsommar.jpg"
+      kep: "gallery/midsommar.jpg"
     },
     {
       cím: "X",
       ev: 2017,
       mufaj: "Horror",
-      kep: "/gallery/x.jpg"
+      kep: "gallery/x.jpg"
     },
     {
       cím: "Brutalist",
       ev: 2024,
       mufaj: "Thriller",
-      kep: "/gallery/brutalist.jpeg"
+      kep: "gallery/brutalist.jpeg"
     },
     {
         cím: "Good Time",
         ev: 2017,
         mufaj: "Thriller",
-        kep: "/kepek/good_time.jpg"
+        kep: "kepek/good_time.jpg"
     },
     {
         cím: "The Witch",
         ev: 2015,
         mufaj: "horror",
-        kep: "/gallery/witch.jpg"
+        kep: "gallery/witch.jpg"
     },
     {
         cím: "The Lighthouse",
         ev: 2019,
         mufaj: "Dráma",
-        kep: "/kepek/lighthouse.jpg"
+        kep: "kepek/lighthouse.jpg"
     },
     {
         cím: "Beau Is Afraid",
         ev: 2023,
         mufaj: "Comedy",
-        kep: "/kepek/beau.jpeg"
+        kep: "kepek/beau.jpeg"
     },
     {
         cím: "Everything everywhere all at once",
         ev: 2022,
         mufaj: "Comedy",
-        kep: "/gallery/everything.jpg"
+        kep: "gallery/everything.jpg"
     },
   ]; 
 
