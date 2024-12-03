@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Szőke Péter">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kérdőív</title>
+    <link rel="shortcut icon" href="kepek/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="updated_style.css">
+    <script src="jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="kepek/A24-Logo-500x281.png" alt="a24_logo"></a>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Története</a></li>
+            <li><a href="filmek.html">Filmek</a></li>
+            <li><a href="random_f.html">Random Film</a></li>
+            <li><a class="active" href="#">Kérdőív</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2 class="kerdo">Kérdőív</h2>
+        <p id="kerdo_b">Kérdőívünkben betekintést nyerhetsz ebbe az egyedi filmes univerzumba – akár rajongó vagy, akár most hallasz róluk először.</p>
+
+        <form method="post" action="https://rf.uni-corvinus.hu/webfejlesztes/receive.php" id="myform">
+            <label for="veznev">Vezetéknév: </label>
+            <input type="text" name="veznev" id="veznev" placeholder="John"><br>
+            <label for="kernev">Keresztnév:</label>
+            <input type="text" name="kernev" id="kernev" placeholder="Doe"><br>
+            <label for="email"> E-mail: </label>
+            <input type="email" name="email" id="email" placeholder="john.doe@gmail.com"><br>
+
+            <label for="ismer">Mennyire ismered az A24 filmeket?</label><br>
+            <label for="ismer-igen">Ismerem őket: <input type="radio" name="ismer" id="ismer-igen"
+                    value="ismer"></label>
+            <label for="ismer-nem">Nem ismerem őket: <input type="radio" name="ismer" id="ismer-nem"
+                    value="nem_ismer"></label>
+
+
+            <label for="kedvenc">Van kedvenc A24 filmed, ha van melyik?(Ha nincs hagyd üresen):</label>
+            <input type="text" name="kedvenc" id="kedvenc"><br>
+            <label for="elso">Melyik volt az első A24 film amit láttál? (Ha nem láttál még hagyd üresen):" </label>
+            <input type="text" name="elso" id="elso"><br>
+
+
+            <label for="mufaj">Milyen műfajú A24 filmeket élvezed a legjobban?</label>
+
+
+            <label for="drama">Dráma <input type="checkbox" name="drama" value="True" id="drama"></label>
+            <label for="horror">Horror <input type="checkbox" name="horror" value="True" id="horror"></label>
+            <label for="comedy">Vígjáték <input type="checkbox" name="comedy" value="True" id="comedy"></label>
+            <label for="docum">Dokumentumfilm <input type="checkbox" name="docum" value="True" id="docum"></label>
+
+
+            <label for="kerdes">Szerinted az A24 filmjei "bátrabbak" az átlag Hollywoodi filmekhez képest? Indokold
+                meg:</label>
+            <input type="text" name="kerdes" id="kerdes"><br>
+            <input type="submit" value="Küldés">
+            <input type="reset"><br>
+        </form>
+        <footer>
+            <p>Készitette: Szőke Péter</p>
+        </footer>
+
+    </div>
+<script src="jquery-validation-1.19.5/dist/jquery.validate.min.js"></script>
+<script src="validate.js"></script>
+</body>
+
+</html>

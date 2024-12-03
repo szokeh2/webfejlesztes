@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Szőke Péter">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random</title>
+    <link rel="shortcut icon" href="kepek/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="updated_style.css">
+    
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="kepek/A24-Logo-500x281.png" alt="a24_logo"></a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Története</a></li>
+            <li><a href="filmek.html">Filmek</a></li>
+            <li><a class="active" href="#">Random Film</a></li>
+            <li><a href="kerdoiv.html">Kérdőív</a></li>
+
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Random film</h1>
+        <input type="button" id="random-film-btn" value="Mutass egy véletlenszerűen kiválasztott filmet"> 
+        <table id="random_t">
+            <tr><td><p id="selected-film-cim"></p></tr></td>
+            <tr><td><p id="selected-film-ev"></p></td></tr>
+            <tr><td><p id="selected-film-mufaj"></p></td></tr>
+            <tr><td><img id="selected-film-img" src="" alt=""></td></tr>
+        </table>
+        <p id="selected-film-mufaj"></p>
+ 
+        <footer><p>Készitette: Szőke Péter</p></footer>        
+    </div>
+    <script src="egyedijs/random.js"></script>
+</body>
+</html>
