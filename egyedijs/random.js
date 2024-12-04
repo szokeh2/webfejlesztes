@@ -36,7 +36,7 @@ const filmek = [
     {
         cím: "The Witch",
         ev: 2015,
-        mufaj: "horror",
+        mufaj: "Horror",
         kep: "gallery/witch.jpg"
     },
     {
