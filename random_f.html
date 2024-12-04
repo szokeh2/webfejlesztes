@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Szőke Péter">
-    <meta name="description" content="">
+    <meta name="description" content="Mutass egy véletlenszerű A24 filmet!">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random</title>
     <link rel="shortcut icon" href="kepek/favicon.jpg" type="image/x-icon">
@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <a href="index.html"><img class="logo" src="kepek/A24-Logo-500x281.png" alt="a24_logo"></a>
+        <a href="index.html"><img class="logo" src="kepek/A24-Logo-500x281.png" alt="A24 logó"></a>
     </header>
     <nav>
         <ul>
@@ -27,10 +27,18 @@
         <h1>Random film</h1>
         <input type="button" id="random-film-btn" value="Mutass egy véletlenszerűen kiválasztott filmet"> 
         <table id="random_t">
-            <tr><td><p id="selected-film-cim"></p></tr></td>
-            <tr><td><p id="selected-film-ev"></p></td></tr>
-            <tr><td><p id="selected-film-mufaj"></p></td></tr>
-            <tr><td><img id="selected-film-img" src="" alt=""></td></tr>
+            <tr>
+                <td id="selected-film-cim">Film címe: -</td>
+            </tr>
+            <tr>
+                <td id="selected-film-ev">Év: -</td>
+            </tr>
+            <tr>
+                <td id="selected-film-mufaj">Műfaj: -</td>
+            </tr>
+            <tr>
+                <td><img id="selected-film-img" src="" alt="Film posztere"></td>
+            </tr>
         </table>
         <p id="selected-film-mufaj"></p>
  
